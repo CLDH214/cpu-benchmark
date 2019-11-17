@@ -8,6 +8,7 @@
     "yieldable-start": "node --max-old-space-size=8000 yieldable.js"
   },
   "dependencies": {
+    "@crypto.com/json-stream-stringify": "^2.0.4",
     "@types/node": "12.12.8",
     "ts-node": "8.5.2",
     "typescript": "3.7.2",
