@@ -1,5 +1,5 @@
 const givenBigObject = () => {
-    return {randomKeyName: new Array(1024 * 1024 * 100)}
+    return {randomKeyName: new Array(1024 * 1024 * 50).fill("a")};
 }
 
 const serialiseBigObject = (sourceObject: any) => {

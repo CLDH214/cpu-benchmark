@@ -17,6 +17,4 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-RUN node_modules/typescript/bin/tsc main.ts
-
-CMD [ "node", "main.js" ]
+CMD [ "node", "--max-old-space-size=8000", "yieldable.js" ]
