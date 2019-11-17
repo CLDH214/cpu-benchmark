@@ -2,6 +2,7 @@ cpu benchmark on JSON.stringify and its alternatives.
 
 A 524.288019 MB JSON string takes up to 100% CPU on my 3.5 GHz Quad-Core Intel Core i5 
 when it is being stringified with `JSON.stringify`.
+A half sized (209.715219 MB) JSON string takes up to 100% CPU with the yieldable-json library too.
 
 You can replicate normal JSON.stringify by 
 ```
