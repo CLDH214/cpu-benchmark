@@ -19,3 +19,9 @@ docker build -f Dockerfile-yieldable -t sugar/cpu-benchmark-yieldable .
 docker run -m=8g sugar/cpu-benchmark-yieldable:latest
 docker stats
 ```
+
+```
+docker build -f Dockerfile-stream -t sugar/cpu-benchmark-stream .
+docker run -m=8g sugar/cpu-benchmark-stream:latest
+docker stats
+```

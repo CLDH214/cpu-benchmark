@@ -1,4 +1,4 @@
 node_modules
-*.js
+main.js
 .idea
 yarn-error.log
